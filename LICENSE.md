@@ -1,8 +1,7 @@
-License of source code
-----------------------
+# Source code
 
 GNU Lesser General Public License, version 2.1
-Copyright (C) 2025-2025 Zenon Seth
+Copyright (C) 2025-2026 Zenon Seth, Sheriff U3
 
 This program is free software; you can redistribute it and/or modify it under the terms
 of the GNU Lesser General Public License as published by the Free Software Foundation;
