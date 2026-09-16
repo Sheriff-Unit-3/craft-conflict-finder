@@ -2,16 +2,13 @@
 
 Finds and reports crafting recipe conflicts, useful for mod/game devs and server owners.
 
-## Compatibility/Dependencies
+## Usage
 
-Finder functionality (listing conflicts) is compatible with any game.
+- `/craft_conflicts` Opens a formspec with three tabs for displaying craft recipe conflicts.
+
+## Dependencies
 
 - Luanti/Minetest v5.2+
-
-## settingtypes
-
-- `craft_conflict_finder.command_all` : `boolean`, default `true` -
-  Whether everyone can use the command to list all crafting recipe conflicts.
 
 ## Licensing
 

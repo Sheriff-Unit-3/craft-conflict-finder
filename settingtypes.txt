@@ -1,1 +1,0 @@
-craft_conflict_finder.command_all (Allow everyone check for crafting conflicts) bool true

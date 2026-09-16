@@ -1,9 +1,13 @@
 craft_conflict_finder = {}
 
-craft_conflict_finder.MODNAME = core.get_current_modname() or "craft_conflict_finder"
-craft_conflict_finder.MODPATH = core.get_modpath(craft_conflict_finder.MODNAME)
+local ccf = craft_conflict_finder
+local modpath = core.get_modpath(core.get_current_modname())
 
-dofile(craft_conflict_finder.MODPATH .. "/settings.lua")
-dofile(craft_conflict_finder.MODPATH .. "/groupimg.lua")
-dofile(craft_conflict_finder.MODPATH .. "/logic.lua")
-dofile(craft_conflict_finder.MODPATH .. "/commands.lua")
+ccf.MODNAME = core.get_current_modname()
+ccf.MODPATH = core.get_modpath(core.get_current_modname())
+
+dofile(modpath .. "/settings.lua")
+dofile(modpath .. "/groupimg.lua")
+dofile(modpath .. "/logic.lua")
+dofile(modpath .. "/ui.lua")
+dofile(modpath .. "/commands.lua")

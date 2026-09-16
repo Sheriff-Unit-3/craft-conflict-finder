@@ -24,6 +24,7 @@ end
 }
 ```
 ]]
+
 function craft_conflict_finder.get_item_for_group_or_item(itemName)
 	local cached = itemNameToItemCache[itemName]
 	if cached then

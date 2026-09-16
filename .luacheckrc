@@ -6,5 +6,9 @@ globals = {
 
 read_globals = {
 	-- Luanti
-	"core", "ItemStack"
+	"core", "ItemStack",
+	table = {fields = {"insert_all"}},
+
+	-- Dependencies
+	"respec"
 }
