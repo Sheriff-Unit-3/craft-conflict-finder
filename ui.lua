@@ -261,7 +261,7 @@ local exchangerForm = respec.Form({
 		}),
 		elem.Tabs({
 			id = "tabs",
-			items = { "Shaped Craft Conflicts", "Shapeless Conflicts", "Cook Conflicts" },
+			items = { "Shaped Conflicts", "Shapeless Conflicts", "Cook Conflicts" },
 			index = istate.tabIndex,
 			listener = function(s, v, f)
 				s.tabIndex = tonumber(v) or 1
